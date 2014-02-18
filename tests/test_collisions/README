@@ -1,0 +1,6 @@
+Lisez le fichier test_collisions.ml pour savoir comment tester les fonctions sur les collisions !
+
+
+Au cas où vous manqueriez la commande de compilation dans le fichier en question :
+
+ocamlbuild -libs graphics test_collisions.native

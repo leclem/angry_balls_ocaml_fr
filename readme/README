@@ -1,0 +1,17 @@
+COMMENT JOUER
+
+Pour jouer, exécutez le fichier "angry_balls.native" via un terminal.Il suffit de se positionner dans le repertoire principal puis de taper "./angry_balls.native". Répondez ensuite aux questions afin de déterminer le nombre de missiles dont vous allez disposer ainsi que la difficulté de la partie (vous pouvez disposer au plus de trois missiles dans cette version, et la difficulté augmente le nombre de boules à détruire et leur solidité).
+Une fois la fenêtre graphique ouverte, vous pouvez saisir le missile, situé dans le quart inférieur gauche de l'écran. Déplacez ensuite la souris, et relâchez-la afin de lui imprimer un mouvement.
+
+Le but du jeu est de détruire les boules. Pour cela, vous devez projeter astucieusement le missile afin de tirer parti des lois physiques gouvernant le jeu : gravité, frottement, collision élastique... À noter : les boules rebondissent sur les murs sans s'abîmer, car ceux-ci sont en caoutchouc !
+À vous de découvrir et d'exploiter toutes les facettes du jeu pour détruire les boules !
+
+Si, une fois tous vos missiles dépensés, il reste encore des boules à détruire, vous aurez (littéralement !) les boules. Si au contraire vous avez réussi à détruire toutes les boules, même s'il vous reste des missiles en réserve, vous aurez gagné. Dans tous les cas, cliquez simplement sur la fenêtre graphique pour la fermer, et n'hésitez pas à rejouer !
+
+/!\ Si votre ordinateur a du mal à gérer les calculs, vous pouvez changer la valeur du paramètre refresh, ce qui diminuera la fluidité du jeu mais évitera une surchauffe à votre matériel. Voici comment faire :
+- Ouvrez le fichier header.ml, et augmentez la valeur du paramètre "refresh" ;
+- Ouvrez un terminal, et rendez-vous dans le dossier contenant les fichiers .ml ;
+- Tapez la commande suivante :
+ocamlbuild -libs graphics angry_balls.native
+dans le terminal ;
+- Et voilà, le jeu est maintenant configuré pour votre ordinateur de mauvaise qualité !
