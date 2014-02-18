@@ -1,6 +1,0 @@
-Lisez le fichier test_interface.ml pour savoir comment tester les fonctions sur l'interface utilisateur !
-
-
-Au cas où vous manqueriez la commande de compilation dans le fichier en question :
-
-ocamlbuild -libs graphics test_interface.native

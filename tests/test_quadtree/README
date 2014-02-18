@@ -1,6 +1,0 @@
-Lisez le fichier test_quadtree.ml pour savoir comment tester les fonctions sur les quadtrees !
-
-
-Au cas où vous manqueriez la commande de compilation dans le fichier en question :
-
-ocamlbuild -libs graphics test_quadtree.native
