@@ -4,7 +4,7 @@ Angry Balls
 Made by Antoine Dailly and Clément Moutet  
 This is a project done in ENS de Lyon during the class “Projet de programmation”.  
 It is a basic  implementation of the Angry Birds game, with balls. The aim of this project was to program physical laws with the programming language Ocaml.  
-Unfortunately, since this project was done in a French university, the code comments and user indications are in French. We apologize for the English speakers, but if you have any question about this project, don't hesitate to contact me and I will be pleased to answer them. Nevertheless, this should not prevent you to use this software.  
+Unfortunately, since this project was done in a French university, the code comments and user indications are in French. We apologize to the non French-speaking users, but if you have any question about this project, don't hesitate to contact me and I will be pleased to answer them. Nevertheless, this should not prevent you to use this software.  
 
 **How to play**  
 To compile the game, you need to have ocaml installed on your computer.  
